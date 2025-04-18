@@ -1,1 +1,42 @@
+# Site-wide settings
+# ------------------
+#
+title: Jonas Nyrup's blog
+author: Jonas Nyrup
+
+# Build settings
+# --------------
+#
 theme: minima
+
+# Minima requires the following plugins:
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+# Minima-specific settings (applicable to Minima v3 and above only)
+# -----------------------------------------------------------------
+#
+minima:
+
+# Set to `true` to show excerpts on the homepage.
+  show_excerpts: true
+
+#   Minima date format.
+#     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+#     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
+  date_format: "%Y-%m-%d"
+
+#   Social Media Links.
+#     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
+#     entries. Valid entry keys:
+#       * title    Tooltip rendered on hovering over icon.
+#       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
+#       * url      Full URL of social profile.
+  social_links:
+    - title: Minima Theme repository at GitHub
+      icon: github
+      url: "https://github.com/jnyrup"
+    - title: Twitter
+      icon: x-twitter
+      url: "https://x.com/jnyrup"
